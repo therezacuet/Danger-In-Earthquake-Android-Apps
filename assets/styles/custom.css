@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ui-field-contain {
+	padding: .75em 0;	
+}
+.ui-footer h4.ui-title {
+font-size: 11px;
+	margin: .6em 0;
+}
+h3 {
+	margin-bottom: 0px;
+}
+h3 + p {
+	margin-top: 0;	
+}
+/*
+.ui-btn-active {
+	background-image:-moz-linear-gradient(top, #FADB4F, #F90);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FADB4F), color-stop(1, #F90));
+	-msfilter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#FF9900', EndColorStr='#FADB4F')";
+}
+*/
+div .ui-grid-a ul li {
+	padding-bottom: 6px;
+	list-style-type:none;
+}
+div .ui-grid-a ul, div .ui-grid-b ul {
+	padding-left: 0;
+	padding-right: 15px;	
+}
+.ui-bar-b {
+	border:1px solid #f7c942;
+	background:#fadb4e;
+	color:#333;
+	text-shadow:0 1px 0 #fff;
+	background-image:-moz-linear-gradient(top, #fceda7, #fadb4e);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fceda7), color-stop(1, #fadb4e));
+	-msfilter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')"
+}
+.ui-btn-hover-b {
+	border:1px solid #e79952;
+	background:#fbe26f;
+	font-weight:bold;
+	color:#111;
+	text-decoration:none;
+	text-shadow:0 1px 1px #fff;
+	background-image:-moz-linear-gradient(top, #fcf0b5, #fbe26f);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fcf0b5), color-stop(1, #fbe26f));
+	-msfilter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcf0b5', EndColorStr='#fbe26f')"
+}
+.ui-btn-up-b {
+	border:1px solid #f7c942;
+	background:#fadb4e;
+	font-weight:bold;
+	color:#333;
+	cursor:pointer;
+	text-shadow:0 1px 1px #fe3;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	background-image:-moz-linear-gradient(top, #fceda7, #fadb4e);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fceda7), color-stop(1, #fadb4e));
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')"
+}
+
+table,td,th{
+	border-collapse: collapse;
+	border:1px solid #000000;
+}
